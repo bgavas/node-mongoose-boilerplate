@@ -9,7 +9,7 @@ describe('USER ROUTE', () => {
     beforeEach(utilSeed.resetDatabase);
     beforeEach(userSeed.populateUsers);
 
-    const filterTests = [];
+    const filterTests = [].map(item => item + '.js');
 
     let routePrefix = 'api/v1/user';
 
