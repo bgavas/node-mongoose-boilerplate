@@ -1,0 +1,35 @@
+{
+	"test": {
+		"PORT": 3000,
+		"MONGODB_URI": "mongodb://localhost:27017/boilerplatetest",
+		"REDIS_URI": "127.0.0.1",
+		"REDIS_PORT": 6379,
+		"JWT_SECRET": "jwt_secretss",
+		"EMAIL_ADDRESS": "test@gmail.com",
+		"EMAIL_PASSWORD": "password",
+		"API_URL": "http://localhost:3000",
+		"CURRENT_VERSION": "v1"
+	},
+	"development": {
+		"PORT": 3000,
+		"MONGODB_URI": "mongodb://localhost:27017/boilerplate",
+		"REDIS_URI": "127.0.0.1",
+		"REDIS_PORT": 6379,
+		"JWT_SECRET": "jwt_secretss",
+		"EMAIL_ADDRESS": "test@gmail.com",
+		"EMAIL_PASSWORD": "password",
+		"API_URL": "http://localhost:3000",
+		"CURRENT_VERSION": "v1"
+	},
+	"production": {
+		"PORT": 3000,
+		"MONGODB_URI": "mongodb://localhost:27017/boilerplate",
+		"REDIS_URI": "127.0.0.1",
+		"REDIS_PORT": 6379,
+		"JWT_SECRET": "jwt_secretss",
+		"EMAIL_ADDRESS": "test@gmail.com",
+		"EMAIL_PASSWORD": "password",
+		"API_URL": "http://localhost:3000",
+		"CURRENT_VERSION": "v1"
+	}
+}
